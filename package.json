@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 7777",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@datepicker-react/hooks": "^2.3.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "dotenv": "^8.2.0",
+    "formik": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "localstorage-polyfill": "^1.0.1",
+    "next": "9.3.6",
+    "nprogress": "^0.2.0",
+    "prop-types": "^15.7.2",
+    "react": "16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-dom": "16.13.1",
+    "react-icons": "^3.10.0",
+    "react-slick": "^0.25.2",
+    "react-ticker": "^1.2.2",
+    "styled-components": "^5.1.0",
+    "styled-system": "^5.1.5",
+    "yup": "^0.28.5"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.10.7"
+  }
+}
