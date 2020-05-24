@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev -p 7777",
     "build": "next build",
-    "start": "next start",
-    "heroku-postbuild": "heroku-nextjs-build"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "next build"
   },
   "dependencies": {
     "@datepicker-react/hooks": "^2.3.1",
